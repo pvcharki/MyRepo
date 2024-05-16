@@ -3,8 +3,8 @@
 
 #From maven:3.9.6-jdk-17 as build
 From maven:3.8.1-jdk-11 as build
-WORKDIR /home/app/
-COPY pom.xml  
+WORKDIR /home/app/src
+COPY pom.xml  /home/app/
 RUN mvn -f /home/app/pom.xml  clean package
 
 
