@@ -53,6 +53,10 @@
         <version>2.12</version>
     </plugin>
 </plugins>
+
+			<plugins>
+   
+</plugins>
 		</plugins>
 	</build>
 
