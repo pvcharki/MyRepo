@@ -2,9 +2,9 @@
 # build stage
 
 #From maven:3.9.6-jdk-17 as build
-From maven as build
-COPY src/home/app/src
-COPY pom.xml/home/app
+From maven:3.8.1-jdk-11 as build
+WORKDIR /home/app/
+COPY pom.xml  
 RUN mvn -f /home/app/pom.xml  clean package
 
 
