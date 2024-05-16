@@ -1,8 +1,8 @@
 
 # build stage
 
-#FROM maven:3.9.6-jdk-17 as build
-FROM maven:3.8.1-jdk-11 as build
+FROM maven:3.9.6-jdk-17 as build
+#FROM maven:3.8.1-jdk-11 as build
 WORKDIR /home/user
 COPY  ./pom.xml  /home/user
 RUN mvn -f /home/user/pom.xml  clean package
