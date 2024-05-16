@@ -41,14 +41,9 @@
 </dependency>
 </dependencies>
 <build>
-<pluginManagement>
- <plugins>
- <plugin>
- <groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-maven-plugin</artifactId>               
-</plugin>
-</plugins>
-</pluginManagement>
+properties>
+<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+</properties>	
 <plugins>
 <plugin>
 <groupId>org.springframework.boot</groupId>
