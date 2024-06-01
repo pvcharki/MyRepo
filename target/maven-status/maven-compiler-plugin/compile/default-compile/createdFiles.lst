@@ -1,0 +1,4 @@
+com\example\aws\cloud\watch\CloudWatchExampleApplication.class
+com\example\aws\cloud\watch\service\CloudWatchService.class
+com\example\aws\cloud\watch\controller\CloudWatchController.class
+com\example\aws\cloud\watch\configuration\CloudWatchConfiguration.class
